@@ -1,0 +1,127 @@
+import React, { Component } from 'react';
+import { Header, Button, Grid, Icon,  Image, Container, Input, List, Responsive, Divider } from 'semantic-ui-react'
+
+
+class easymallFooter extends Component {
+
+  render() {
+ 
+    return (
+	<Container fluid>
+	<Container style={{ paddingTop: '7rem' }}>
+		<Grid verticalAlign='bottom'>
+			<Grid.Row columns={2} style={{ }}>
+				<Grid.Column id='social-footer'>
+					<Header as='h5' content='Nos Gusta Socializar' />
+					<Responsive minWidth={Responsive.onlyComputer.minWidth}>
+					<p style={{ color: 'grey' }}>
+					Manejamos una amplia red comercial que demanda
+					un tráfico informado de todos avances y movimientos 
+					de las empresas afiliadas a nuestra plataforma. 
+					Envíanos tu correo en el campo a continuación para
+					sumarte a nuestra comunidad y enterarte de los 
+					eventos y promociones de las tiendas oficiales de 
+					tu preferencia. Somos el destino ideal para el
+					comercio.
+					</p>
+					</Responsive>
+					<div style={{padding: '10px 0' }}>
+					<Input action={<Button color='orange' icon><Icon inverted name='mail'/></Button>} placeholder='Ingresa tu correo electrónico'/>
+					<div style={{ padding: '10px 0' }}>
+						<Button size='mini' icon color='black'>
+						  <Icon name='facebook' />
+						</Button>
+						<Button size='mini' icon color='black'>
+						  <Icon name='twitter' />
+						</Button>
+						<Button size='mini' icon color='black'>
+						  <Icon name='google plus' />
+						</Button>
+						<Button size='mini' icon color='black'>
+						  <Icon name='vk' />
+						</Button>
+						<Button size='mini' icon color='black'>
+						  <Icon name='linkedin' />
+						</Button>
+						<Button size='mini' icon color='black'>
+						  <Icon name='instagram' />
+						</Button>
+						<Button size='mini' icon color='black'>
+						  <Icon name='youtube' />
+						</Button>
+					  </div>
+					</div>
+					
+					<List horizontal size='mini'>
+						<List.Item as='a' href='/terminos-de-uso' style={{  color: 'grey' }}>Términos de Uso</List.Item>
+						<List.Item as='a' href='/politicas-de-privacidad' style={{  color: 'grey' }}>Políticas de Privacidad</List.Item>
+					 </List>
+				</Grid.Column>
+				<Responsive minWidth={732} style={{margin: 'auto'}}>
+				<Grid.Column >
+					<Grid textAlign='center' >
+						<Grid.Row  columns={2} style={{ padding: '3rem 0' }} id='links-footer'>
+							<Grid.Column >
+								<Header as='h5' content='Sigue en EasyMall' style={{ textAlign:'left' }} />
+								<List bulleted style={{ textAlign:'left' }}>
+									<List.Item as='a' href='https://google.com' style={{  color: 'grey' }}>Categorías</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Empresas</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Servicios</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Registro de Empresa</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Registro de Usuario</List.Item>
+								</List>
+							</Grid.Column >
+							<Grid.Column >
+								<Header as='h5' content='Acerca de nosotros' style={{ textAlign:'left' }} />
+								<List bulleted style={{ textAlign:'left' }}>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Contacta con nosotros</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Atención al cliente</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Rediseño de tienda</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Mercadeo y Publicidad</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>FAQ Usuarios</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>FAQ Empresas</List.Item>
+								</List>
+							</Grid.Column >
+						</Grid.Row>
+					</Grid>
+				</Grid.Column>
+				</Responsive>
+			</Grid.Row>
+		</Grid>
+	</Container>
+	<Responsive minWidth={456} maxWidth={Responsive.onlyTablet.maxWidth}>
+		<div style={{ position: 'relative', marginTop: '-88px', maxWidth: '82px', textAlign: 'center', float: 'right'}}>
+			<Image src='/images/secure.png' style={{ display: 'inline-block', height: '50px', marginBottom: '10px' }} />
+			<Image src='/images/symantec.png' style={{  display: 'inline-block', height: '19px',  marginBottom: '10px'}} />
+		</div>
+		<div style={{clear:'both'}}></div>
+	</Responsive>
+	<Responsive minWidth={Responsive.onlyComputer.minWidth}>
+		<svg style={{ marginBottom: '-61px' }}height="4mm" width="100%" version="1.1" viewBox="0 0 744.09449 14.173228" preserveAspectRatio="none">
+			<path d="m-1.0102 2.809 495.73-0.2525 88.85 10.25 159.84 0.296" stroke="#747474" strokeWidth="2px" fill="none"/>
+		</svg>
+	</Responsive>
+	<Responsive maxWidth={Responsive.onlyTablet.maxWidth}>
+		<Divider />
+	</Responsive>
+	<Grid verticalAlign='bottom'>
+		<Grid.Row columns={2} >
+			<Grid.Column mobile={16}  tablet={4} computer={4} >
+				<Image src='/images/logo_footer.png' style={{ margin: 'auto', maxHeight: '36px' }} />
+			</Grid.Column>
+			<Grid.Column floated='right' mobile={16}  tablet={8} computer={4} style={{ color: 'grey', textAlign: 'center' }}>
+				<Responsive minWidth={Responsive.onlyComputer.minWidth}>
+					<Image src='/images/symantec.png' style={{  display: 'inline-block', height: '30px',  marginBottom: '10px'}} />
+					<Image src='/images/secure.png' style={{ display: 'inline-block', height: '54px', marginBottom: '10px' }} />
+				</Responsive>
+				<div><small>Copyright 2018</small></div>
+				<div><small>Todos los derechos reservados a EasyMall C.A.</small></div>
+			</Grid.Column>
+		</Grid.Row>
+	</Grid>
+	</Container>
+    );
+  }
+}
+
+export default easymallFooter;

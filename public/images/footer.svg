@@ -1,0 +1,14 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="57mm" width="210mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 744.09449 201.96852">
+ <defs>
+  <linearGradient id="lgrad" y2="2555.7" gradientUnits="userSpaceOnUse" x2="289.78" gradientTransform="matrix(2.5666 0 0 .38962 .000030518 -939.18)" y1="2555.7" x1=".10436">
+   <stop stop-color="#ededed" offset="0"/>
+   <stop stop-color="#fff" offset=".22"/>
+   <stop stop-color="#ededed" offset=".48"/>
+   <stop stop-color="#f2f2f2" offset=".76"/>
+   <stop stop-color="#e0e0e0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(0 -850.4)">
+  <path fill="url(#lgrad)" d="m0.26758 0.13867l0.18945 202.4 743.3 0.09v-202.49l-186.61 38.753-556.88-38.754z" transform="translate(-.000030518 850.4)"/>
+ </g>
+</svg>
