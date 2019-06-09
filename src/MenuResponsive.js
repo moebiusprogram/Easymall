@@ -27,7 +27,7 @@ class SidebarMenu extends Component {
 	}
     
     return (
-      <div>
+  <div>
 		<Responsive maxWidth={Responsive.onlyMobile.maxWidth}>
 			<Button icon='bars' circular
 				style={{ backgroundColor: '#313131', color:'#eaeaea', border: '1px solid #555', position: 'fixed',zIndex: '91',width: '39px',top: '18px',right: '22px' }} 
