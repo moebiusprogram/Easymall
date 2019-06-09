@@ -19,8 +19,6 @@ class Share extends Component {
 		window.removeEventListener('scroll', this.handleScroll);
 	}
 	
-	
-	
 	handleScroll(event) {
 		var heightBound = 1830;
 		if (heightBound < window.scrollY) {
@@ -28,8 +26,6 @@ class Share extends Component {
 		} 
 	}
   
-	
-	
   render() {
 	  const { visible } = this.state
 	  
