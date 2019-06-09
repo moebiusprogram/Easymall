@@ -11,7 +11,6 @@ class SidebarMenu extends Component {
 
   handleSidebarHide = () => this.setState({ visible: false })
 
-
   render() {
     const { visible } = this.state
     
