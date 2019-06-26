@@ -51,8 +51,8 @@ class Commercial extends Component {
 					<Header as='h4' style={{ textAlign: 'center', fontWeight: 100, margin: '0'}}>Empresas</Header>
 					<Header as='h1' id='commercial-section-title' style={{ textAlign: 'center', marginTop: '0'  }}>Potencial Comercial</Header>
 					<p className="commercial-section-message">Las bases más importantes del diseño web son nuestro más fiel enfoque a la hora de 
-					construir una tienda oficial online para una empresa. Te presentamos nuestras estrategias de desarrollo
-					que harán que tu empresa alcance el máximo nivel comercial empresarial económico.</p>
+					construir una tienda online para una empresa. Te presentamos nuestras estrategias de desarrollo
+					que harán que tu empresa alcance las metas que siempre te has propuesto.</p>
 					<Grid textAlign='center'>
 						<Grid.Row  columns={4}>
 							<Grid.Column >
