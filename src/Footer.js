@@ -15,8 +15,8 @@ class easymallFooter extends Component {
 					<Header as='h5' content='Nos Gusta Socializar' />
 					<Responsive minWidth={Responsive.onlyComputer.minWidth}>
 					<p style={{ color: 'grey' }}>
-					Manejamos una amplia red comercial que demanda
-					un tráfico informado de todos avances y movimientos 
+					Tenemos una amplia red comercial con registro detallado 
+					de todos los avances y movimientos 
 					de las empresas afiliadas a nuestra plataforma. 
 					Envíanos tu correo en el campo a continuación para
 					sumarte a nuestra comunidad y enterarte de los 
