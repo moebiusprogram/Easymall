@@ -40,9 +40,9 @@ class Share extends Component {
 					<Header as='h1' style={{ textAlign: 'center', fontSize: '3rem', marginTop: '0',color:'white' }}>Al Estilo De Un Mall</Header>
 					<p>
 					Sabemos que comprar en mercados puede llegar a ser una experiencia insegura
-					y desordenada. La nueva plataforma de EasyMall te ofrece la mayor concentración
-					de tiendas oficiales de ventas y servicios. Disfruta de la exclusividad,
-					seguridad y confort de este destino comercial.
+					y desordenada. La innovadora plataforma de EasyMall te ofrece la mayor concentración
+					de tiendas oficiales de ventas y servicios. Disfruta de la exclusividad y
+					seguridad de este destino comercial.
 					</p>
 					<Grid textAlign='center'>
 						<Grid.Row  columns={4}>
