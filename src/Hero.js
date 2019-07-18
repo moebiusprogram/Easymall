@@ -47,7 +47,7 @@ class Hero extends Component {
 						<Grid.Column className='business-hero-grid' mobile={16} tablet={12} computer={8} floated='right' style={{  }}>
 							<Header as='h4' style={{ textAlign: 'center', fontWeight: 100, marginTop: '4rem'}}>Sistema integrado para todo tipo de empresa</Header>
 							<Header as='h1' style={{ textAlign: 'center', fontSize: '3rem', marginTop: '0' }}>Invierte en tu futuro</Header>
-							<p>Convertimos tu empresa en un potencial virtual con todos los 
+							<p>Convertimos tu empresa en un potencials con todos los 
 							valores de tu tienda física para que puedas sacar el máximo provecho
 							de ella y la alojamos en la plataforma de EasyMall. De esta manera,
 							no necesitarás gastar en servidores, seguridad, diseñadores,
