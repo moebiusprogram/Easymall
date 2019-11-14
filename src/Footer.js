@@ -114,7 +114,7 @@ class easymallFooter extends Component {
 					<Image src='/images/symantec.png' style={{  display: 'inline-block', height: '30px',  marginBottom: '10px'}} />
 					<Image src='/images/secure.png' style={{ display: 'inline-block', height: '54px', marginBottom: '10px' }} />
 				</Responsive>
-				<div><small>Copyright 2018</small></div>
+				<div><small>Copyright 2019</small></div>
 				<div><small>Todos los derechos reservados a EasyMall C.A.</small></div>
 			</Grid.Column>
 		</Grid.Row>
