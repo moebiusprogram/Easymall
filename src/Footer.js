@@ -76,7 +76,7 @@ class easymallFooter extends Component {
 								<List bulleted style={{ textAlign:'left' }}>
 									<List.Item as='a' href='#' style={{  color: 'grey' }}>Contacta con nosotros</List.Item>
 									<List.Item as='a' href='#' style={{  color: 'grey' }}>Atención al cliente</List.Item>
-									<List.Item as='a' href='#' style={{  color: 'grey' }}>Rediseño de tienda</List.Item>
+									<List.Item as='a' href='#' style={{  color: 'grey' }}>Rediseño de la tienda</List.Item>
 									<List.Item as='a' href='#' style={{  color: 'grey' }}>Mercadeo y Publicidad</List.Item>
 									<List.Item as='a' href='#' style={{  color: 'grey' }}>FAQ Usuarios</List.Item>
 									<List.Item as='a' href='#' style={{  color: 'grey' }}>FAQ Empresas</List.Item>
